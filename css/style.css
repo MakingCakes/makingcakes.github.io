@@ -215,7 +215,7 @@ p.sub-text {
 
 .category-description {
   /*background-color: rgba(29, 29, 29, 0.6);*/
-  max-width: 960px;
+  max-width: 760px;
   padding: 50px;
   color: #fff;  
   margin: 0 auto; 
@@ -238,8 +238,8 @@ div.container.gallery {
 
 .gallery div {
   display: inline-block;
-  width: 200px;
-  height: 150px;
+  width: 160px;
+  height: 120px;
   overflow: hidden;
   border-radius: 10px;
   margin: 10px;
