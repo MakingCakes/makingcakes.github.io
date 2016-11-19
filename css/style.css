@@ -204,6 +204,9 @@ p.sub-text {
   .column.half {
     text-align: center;
   }
+  .spacing {
+    padding: 10px 0;
+  }
 }
 
 /*.blog-post {
