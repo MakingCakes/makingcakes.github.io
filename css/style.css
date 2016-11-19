@@ -191,15 +191,22 @@ p.sub-text {
 
 /*365px*/
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
   nav.main-nav ul {
     float: none;
   }
+  
+  .column.half p {
+    display: none;
+  }  
+}
+
+@media only screen and (max-width: 450px) {
   .column.half {
     width: 100%;
   } 
   .column.half img {
-    width: auto;    
+    width: auto;      
   }
 }
 
