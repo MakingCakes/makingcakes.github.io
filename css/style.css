@@ -44,7 +44,7 @@ h3 {
   text-shadow: 0 0 10px Bisque;
 }
 
-img {
+.column.half img {
   max-width: 100%;
   height: auto;
   box-shadow: 5px 5px 15px black;
@@ -211,6 +211,46 @@ p.sub-text {
   .spacing {
     padding: 10px 0;
   }
+}
+
+.category-description {
+  /*background-color: rgba(29, 29, 29, 0.6);*/
+  max-width: 700px;
+  padding: 50px;
+  color: #fff;  
+  margin: 0 auto; 
+  /*margin-bottom: 50px;*/
+
+  /*border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;*/
+}
+
+.category-description p {
+  /*max-width: 700px;*/ 
+  margin: 0 auto; 
+
+}
+
+div.container.gallery {
+  padding-bottom: 40px; 
+
+}
+
+.gallery div {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 5px 5px 15px black;
+}
+
+.container.gallery img {
+  width: 100%;
+  
+  
+  
 }
 
 /*.blog-post {
