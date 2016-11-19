@@ -106,7 +106,7 @@ header,
 footer {
   background: #1D1D1D;
   color: #ffffff;
-  padding: 10px 0;
+  /*padding: 10px 0;*/
 }
 
 footer ul {
@@ -121,7 +121,7 @@ footer p {
 
 footer ul li {
   display: inline-block;
-  padding-right: 20px;
+  padding: 10px;
 }
 
 nav.main-nav ul {
