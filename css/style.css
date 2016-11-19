@@ -109,9 +109,13 @@ footer {
   /*padding: 10px 0;*/
 }
 
+footer div.container {
+  padding: 0 0;
+}
+
 footer ul {
   list-style: none;
-  text-align: center;    
+  /*text-align: center;*/    
 }
 
 footer p {
