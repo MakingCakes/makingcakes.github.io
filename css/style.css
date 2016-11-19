@@ -131,12 +131,6 @@ nav.main-nav ul {
   float: right;
 }
 
-@media only screen and (max-width: 365px) {
-  nav.main-nav ul {
-    float: none;
-  }
-}
-
 nav.main-nav li,
 nav.main-nav a {
   display: inline-block;
@@ -193,6 +187,17 @@ p.sub-text {
   padding-right: 20px;
   color: #fff;
   text-shadow: 5px 5px 5px black;
+}
+
+/*365px*/
+
+@media only screen and (max-width: 760px) {
+  nav.main-nav ul {
+    float: none;
+  }
+  .column.half {
+    width: 100%;
+  }
 }
 
 /*.blog-post {
