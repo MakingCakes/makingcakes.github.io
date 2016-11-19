@@ -118,11 +118,10 @@ footer div.container {
 
 footer ul {
   list-style: none;
-  /*text-align: center;*/    
+  text-align: center;    
 }
 
-footer p {
-  text-align: center;  
+footer p {  
   font-size: 18px;  
 }
 
@@ -296,6 +295,10 @@ div.container.gallery {
 
 .container.gallery img {
   width: 100%;  
+}
+
+small {
+  font-size: 14px;
 }
 
 /*.blog-post {
