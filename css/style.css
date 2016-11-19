@@ -26,7 +26,7 @@ h1 {
 
 h2 {
   font-size: 60px;
-  text-align: center;
+  text-align: center;  
 }
 
 h3 {
@@ -219,6 +219,8 @@ p.sub-text {
   padding: 50px;
   color: #fff;  
   margin: 0 auto; 
+  text-shadow: 5px 5px 5px black;
+  /*line-height: 1.6em;*/
   /*margin-bottom: 50px;*/
 
   /*border-bottom-right-radius: 30px;
@@ -227,7 +229,31 @@ p.sub-text {
 
 .category-description p {
   /*max-width: 700px;*/ 
-  margin: 0 auto; 
+  margin: 20px auto;   
+}
+
+.category-description a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.category-description a:hover {
+  text-shadow: 0 0 10px Bisque;
+}
+
+.category-description h2 {
+  font-family: 'Marck Script', cursive;
+  color: Bisque;
+  padding-bottom: 20px;
+}
+
+.category-description li {
+  line-height: 1.6em;
+  padding-bottom: 10px;
+}
+
+.mark-word {
+  color: Bisque;
 
 }
 
@@ -239,10 +265,10 @@ div.container.gallery {
 
 .gallery div {
   display: inline-block;
-  /*width: 130px;
-  height: 90px;*/
+  
   width: 280px;
   height: 200px;
+
   
   
   overflow: hidden;
