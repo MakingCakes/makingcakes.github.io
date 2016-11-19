@@ -87,6 +87,8 @@ p.post-hero {
   font-family: 'Marck Script', cursive;
   font-size: 22px;
   text-shadow: 5px 5px 5px black;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 header a,
@@ -172,7 +174,7 @@ p.sub-text {
 }
 
 .spacing {
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 .column {
@@ -197,7 +199,7 @@ p.sub-text {
 
 /*365px*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 600px) {
   nav.main-nav ul {
     float: none;
   }  
