@@ -38,6 +38,7 @@ h3 {
   text-decoration: none;
   color: Bisque;
   transition: 0.3s;
+
 }
 
 .column.half a:hover {
@@ -191,6 +192,7 @@ p.sub-text {
   padding-right: 20px;
   color: #fff;
   text-shadow: 5px 5px 5px black;
+  text-align: center;
 }
 
 /*365px*/
@@ -205,9 +207,9 @@ p.sub-text {
   .column.half img {
     width: 60%;      
   }
-  .column.half {
+  /*.column.half {
     text-align: center;
-  }
+  }*/
   .spacing {
     padding: 10px 0;
   }
