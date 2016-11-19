@@ -238,8 +238,8 @@ div.container.gallery {
 
 .gallery div {
   display: inline-block;
-  width: 160px;
-  height: 120px;
+  width: 130px;
+  height: 90px;
   overflow: hidden;
   border-radius: 10px;
   margin: 10px;
