@@ -232,25 +232,40 @@ p.sub-text {
 }
 
 div.container.gallery {
+  
   padding-bottom: 40px; 
 
 }
 
 .gallery div {
   display: inline-block;
-  width: 130px;
-  height: 90px;
+  /*width: 130px;
+  height: 90px;*/
+  width: 280px;
+  height: 210px;
+  
+  
   overflow: hidden;
   border-radius: 10px;
-  margin: 5px;
+  
   box-shadow: 5px 5px 15px black;
+  box-sizing: border-box;
+  float: left;
+  margin: 10px;
+}
+
+/*.gallery div:nth-child(even) {
+  margin-right: 0;
+}*/
+
+.gallery:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .container.gallery img {
-  width: 100%;
-  
-  
-  
+  width: 100%;  
 }
 
 /*.blog-post {
