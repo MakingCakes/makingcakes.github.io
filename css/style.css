@@ -211,9 +211,9 @@ p.sub-text {
   /*.column.half {
     text-align: center;
   }*/
-  /*.spacing {
-    padding: 10px 0;
-  }*/
+  .spacing {
+    padding: 0 0;
+  }
 }
 
 .category-description {
