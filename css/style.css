@@ -217,6 +217,9 @@ p.sub-text {
   .spacing {
     padding: 0 0;
   }
+  p.post-hero {
+    padding-bottom: 40px;
+  }
 }
 
 .category-description {
