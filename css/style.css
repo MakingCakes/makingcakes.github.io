@@ -274,9 +274,9 @@ div.container.gallery {
 
 .gallery div {
   display: inline-block;
-  
+  /*background: #1D1D1D;*/
   width: 280px;
-  height: 200px;
+  height: 200px;  
 
   
   
@@ -287,6 +287,17 @@ div.container.gallery {
   box-sizing: border-box;
   float: left;
   margin: 10px;
+  
+}
+
+.gallery div p {
+  position: absolute;
+  z-index: 0;
+  padding: 10px;
+  margin: 0;
+  color: #fff;
+  font-size: 0.8em;
+  width: 260px;
 }
 
 /*.gallery div:nth-child(even) {
@@ -300,7 +311,16 @@ div.container.gallery {
 }
 
 .container.gallery img {
-  width: 100%;  
+  width: 100%;
+  position: relative;
+  top: 0; 
+  transition: 1s;
+  transition-delay: 0.5s; 
+  z-index: 1;
+}
+
+.container.gallery div.with-descr:hover img {
+  top: 200px;
 }
 
 small {
