@@ -49,7 +49,11 @@ h3 {
   max-width: 100%;
   height: auto;
   box-shadow: 5px 5px 15px black;
-  border-radius: 10px;
+  border-radius: 10px;  
+  transition: 1s;
+  transition-delay: 0.5s;
+  position: relative;
+  bottom: 0;
 }
 
 div.container,
@@ -274,7 +278,7 @@ div.container.gallery {
 
 .gallery div {
   display: inline-block;
-  /*background: #1D1D1D;*/
+  background: rgba(29, 29, 29, 0.7);
   width: 280px;
   height: 200px;  
 
@@ -316,11 +320,12 @@ div.container.gallery {
   top: 0; 
   transition: 1s;
   transition-delay: 0.5s; 
-  z-index: 1;
+  /*z-index: 1;*/
 }
 
-.container.gallery div.with-descr:hover img {
-  top: 200px;
+div.offset:hover img {
+  /*top: 200px;*/
+  top: 100%;
 }
 
 small {
