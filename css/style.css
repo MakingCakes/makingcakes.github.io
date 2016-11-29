@@ -1,3 +1,8 @@
+/*
+  ========================================
+  Типографика
+  ========================================
+*/
 body {
   font-family: "Lobster", sans-serif;
   padding: 0;
@@ -5,46 +10,61 @@ body {
   font-size: 20px;
   background: #1D1D1D;
 }
-
 p {
   line-height: 1.6em;
 }
-
 a {
   color: #000;
 }
-
 h1,
 h2 {
   padding: 0;
   margin: 0;
 }
-
 h1 {
   font-weight: normal;
 }
-
 h2 {
   font-size: 60px;
   text-align: center;  
 }
-
 h3 {
   font-size: 1.8em;
   margin: 15px 0; 
 }
-
+/*
+  ========================================
+  Разделы
+  ========================================
+*/
+.spacing {
+  padding: 20px 0;
+}
+.column {
+  box-sizing: border-box;
+  float: left;
+}
+.column.third {
+  width: 33%;
+  padding: 0 20px;
+  text-align: center;
+}
+.column.half {
+  width: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  text-shadow: 5px 5px 5px black;
+  text-align: center;
+}
 .column.half a {
   text-decoration: none;
   color: Bisque;
   transition: 0.3s;
-
 }
-
 .column.half a:hover {
   text-shadow: 0 0 10px Bisque;
 }
-
 .column.half img {
   max-width: 100%;
   height: auto;
@@ -55,34 +75,42 @@ h3 {
   position: relative;
   bottom: 0;
 }
-
+/*
+  ========================================
+  Основное содержание
+  ========================================
+*/
+div.content {
+  background-image: url('../images/wood-bg.jpg');
+}
 div.container,
 div.small-container {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 div.container {
   max-width: 940px;
 }
-
 div.small-container {
   max-width: 700px;
 }
-
+/*
+  ========================================
+  Вступление
+  ========================================
+*/
 section.hero {
+  padding: 150px 0;
   color: #fff;
   text-shadow: 5px 5px 5px black;
-  background-image: url('../images/bg.jpg');
+  background-image: url('../images/hero-bg.jpg');
   background-size: cover;
   box-shadow: 0 5px 15px black;
   font-family: 'Marck Script', cursive;
 }
-
 section.hero p {
 	font-size: 30px;
 }
-
 p.post-hero {
   font-size: 22px;
   width: 80%;
@@ -94,7 +122,11 @@ p.post-hero {
   padding-top: 50px;
   padding-bottom: 100px;
 }
-
+/*
+  ========================================
+  Ссылки
+  ========================================
+*/
 header a,
 section.hero a,
 footer a {
@@ -102,62 +134,53 @@ footer a {
   color: #ffffff;
   transition: 0.3s;  
 }
-
 header a:hover,
 section.hero a:hover,
 footer a:hover {
   text-shadow: 0 0 10px white;
 }
-
+/*
+  ========================================
+  Шапка, подвал
+  ========================================
+*/
 header,
 footer {
   background: #1D1D1D;
   color: #ffffff;
   /*padding: 10px 0;*/
 }
-
 footer div.container {
   padding: 0 0;
 }
-
 footer ul {
   list-style: none;
   text-align: center;    
 }
-
 footer p {  
   font-size: 18px;  
 }
-
 footer ul li {
   display: inline-block;
   padding: 10px;
 }
-
+/*
+  ========================================
+  Навигация
+  ========================================
+*/
 nav.main-nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
   float: right;
 }
-
 nav.main-nav li,
 nav.main-nav a {
   display: inline-block;
 }
-
 nav.main-nav li a {
   padding: 10px;
-}
-
-div.content {
-  /*background: #fff;*/
-  background-image: url('../images/wood-bg.jpg');
-  background-repeat: repeat;
-}
-
-section.hero {
-  padding: 150px 0;
 }
 
 p.sub-text {
@@ -165,59 +188,29 @@ p.sub-text {
   text-align: center;
   line-height: 28px;
 }
-
 .center-text {
   text-align: center;
 }
-
+/*
+  ========================================
+  ClearFix
+  ========================================
+*/
 .columns:after {
   content: "";
   display: table;
   clear: both;
 }
-
-.spacing {
-  padding: 20px 0;
-}
-
-.column {
-  box-sizing: border-box;
-  float: left;
-}
-
-.column.third {
-  width: 33%;
-  padding: 0 20px;
-  text-align: center;
-}
-
-.column.half {
-  width: 50%;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #fff;
-  text-shadow: 5px 5px 5px black;
-  text-align: center;
-}
-
 /*365px*/
-
-@media only screen and (max-width: 600px) {
-  /*nav.main-nav ul {
-    float: none;
-  }  
-  .column.half {
-    width: 100%;
-  } 
-  .column.half img {
-    width: 60%;      
-  }*/
+/*
+  ========================================
+  Адаптивность
+  ========================================
+*/
+@media only screen and (max-width: 600px) {  
   h3 {
     font-size: 1em;
   }
-  /*.column.half {
-    text-align: center;
-  }*/
   .spacing {
     padding: 0 0;
   }
@@ -225,7 +218,11 @@ p.sub-text {
     padding-bottom: 40px;
   }
 }
-
+/*
+  ========================================
+  Описание раздела
+  ========================================
+*/
 .category-description {
   /*background-color: rgba(29, 29, 29, 0.6);*/
   max-width: 760px;
@@ -239,61 +236,49 @@ p.sub-text {
   /*border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;*/
 }
-
 .category-description p {
   /*max-width: 700px;*/ 
   margin: 20px auto;   
 }
-
 .category-description a {
   text-decoration: none;
   transition: 0.3s;
 }
-
 .category-description a:hover {
   text-shadow: 0 0 10px Bisque;
 }
-
 .category-description h2 {
   font-family: 'Marck Script', cursive;
   color: Bisque;
   padding-bottom: 20px;
 }
-
 .category-description li {
   line-height: 1.6em;
   padding-bottom: 10px;
 }
-
 .mark-word {
   color: Bisque;
-
 }
-
-div.container.gallery {
-  
-  padding-bottom: 40px; 
-
+/*
+  ========================================
+  Галерея
+  ========================================
+*/
+div.container.gallery {  
+  padding-bottom: 40px;
 }
-
 .gallery div {
   display: inline-block;
-  background: rgba(29, 29, 29, 0.7);
+  background: rgba(29, 29, 29, 0.8);
   width: 280px;
   height: 200px;  
-
-  
-  
   overflow: hidden;
-  border-radius: 10px;
-  
+  border-radius: 10px;  
   box-shadow: 5px 5px 15px black;
   box-sizing: border-box;
   float: left;
-  margin: 10px;
-  
+  margin: 10px;  
 }
-
 .gallery div p {
   position: absolute;
   z-index: 0;
@@ -303,17 +288,14 @@ div.container.gallery {
   font-size: 0.8em;
   width: 260px;
 }
-
 /*.gallery div:nth-child(even) {
   margin-right: 0;
 }*/
-
 .gallery:after {
   content: "";
   display: table;
   clear: both;
 }
-
 .container.gallery img {
   width: 100%;
   position: relative;
@@ -322,12 +304,10 @@ div.container.gallery {
   transition-delay: 0.5s; 
   /*z-index: 1;*/
 }
-
 div.offset:hover img {
   /*top: 200px;*/
   top: 100%;
 }
-
 small {
   font-size: 14px;
 }
